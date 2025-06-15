@@ -15,3 +15,154 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #f9f9f9;
 }
+
+
+/*Trending section */
+
+.Trending-section {
+  padding: 0 118px;
+  margin-bottom: 88px;
+}
+
+/*Trending section h1*/
+.Trending-section h1 {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 55px;
+}
+
+/*trending-cards*/
+.Trending-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.Trending-card {
+  width: 579px;
+  height: 670px;
+  box-shadow: 0px 6px 6px 0px #0000000D;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*Trending-backgound*/
+.Trending-background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  border-radius: 20px;
+  padding: 20px 369px 219px 34px;
+  position: relative;
+}
+
+
+.Trending-background h2 {
+  padding: 9px 50px;
+  background-color: #262626;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 12px;
+  border-radius: 40px;
+  display: inline-block;
+}
+
+/*background hover*/
+
+.Trending-background h2:hover {
+  background-color: #262626;
+  color:#FFFFFF;
+  background-color:#4ce0d7 ;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/*Trending profile*/
+
+.Trending-profile {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  align-items: center;
+  margin-left: 26px;
+}
+
+.Trending-profile img {
+  width: 65px;
+  height: 51px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.Trending-profile div {
+  display: flex;
+  flex-direction: row;
+  gap: 83px;
+}
+
+.Trending-profile p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #bcbcbc;
+}
+
+.malorie {
+  width: 169px;
+}
+
+.Trending-text {
+  max-width: 464px;
+  margin-left: 34px;
+}
+
+.Trending-text h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 28px;
+  margin-bottom: 25px;
+  width: 350px;
+}
+
+.Trending-text p {
+  font-size: 16px;
+  font-weight: 400;
+  width: 360px;
+}
+
+/*read more*/
+
+.Trending-readmore {
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+  align-items: center;
+  margin-left: 22px;
+  margin-bottom: 42px;
+}
+
+.Trending-readmore p {
+  color: #4ce0d7;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.Trending-readmore:hover p {
+  color:#4CE0D7 ;
+  transition: 0.3s ease;
+}
+.Trending-readmore:hover img {
+  transform: translateX(4px);
+  transition: 0.3s ease;
+  cursor: pointer;
+}  
+
+/*margin*/
+
+.Trending-card {
+  margin-bottom: 88px;
+}
