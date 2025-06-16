@@ -72,6 +72,10 @@ body {
   border-radius: 40px;
 }
 
+.topic-card a:hover {
+  color: white;
+}
+
 /* line */
 hr {
   margin: 0 auto;
