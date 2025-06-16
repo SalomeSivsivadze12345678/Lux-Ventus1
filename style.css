@@ -1,35 +1,18 @@
 body {
   margin: 0;
   padding: 0;
-
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   background-color: #ffffff;
 
-  margin: 0;
-  padding: 0;
-
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-color: #ffffff;
-}
+  
 
 footer {
   background-color: #ffffff;
   padding: 40px 60px;
 
-  footer {
-    padding: 40px 60px;
-
-    @media (max-width: 768px) {
-      .footer-container {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
       }
 
       .footer-right {
@@ -42,7 +25,7 @@ footer {
       }
     }
   }
-}
+
 .footer-container {
   width: 100%;
   max-width: 1440px;
@@ -56,15 +39,10 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   border-bottom: 1px #bcbcbc solid;
-  border-bottom-width: 1267px;
-  border-bottom-style: center;
-  border-bottom: top 44145px;
-  border-bottom: left 86.5px;
-
   padding: 20px 30px;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
-  padding: 20px 30px;
+ 
 }
 
 .footer-logo {
@@ -101,29 +79,16 @@ footer {
   transition: transform 0.2s ease, filter 0.2s ease;
 }
 
-.icon-twitter:hover img {
+
+.social-icons a:hover img {
   filter: brightness(1.2);
   transform: scale(1.1);
 }
 
-.icon-facebook:hover img {
-  filter: brightness(1.2);
-  transform: scale(1.1);
-}
-.icon-instagram:hover img {
-  filter: brightness(1.2);
-  transform: scale(1.1);
-}
 
-.icon-youtube:hover img {
-  filter: hue-rotate(10deg);
-  transform: scale(1.1);
-}
 
-.icon-linkedin:hover img {
-  filter: brightness(1.2);
-  transform: scale(1.1);
-}
+
+
 
 .footer-bottom {
   text-align: left;
@@ -134,9 +99,5 @@ footer {
   font-weight: 700;
 }
 
-@media (max-width: 1440px) {
-  .footer-bottom {
-    width: 100%;
-    padding: 0 20px;
-  }
-}
+ 
+
