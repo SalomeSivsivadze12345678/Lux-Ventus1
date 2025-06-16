@@ -93,16 +93,7 @@ body {
 
 
 
-/* <!-- .searh-icon-> */
-.main{
-  display: flex;
-  flex-direction: column;
-  padding-top: 218px;
-  padding-bottom: 141px;
-  padding-left: 57px;
-  gap: 22px;
-  
-}
+
 
 /* <!-- .background-section -> */
 .background-section {
