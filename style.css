@@ -15,3 +15,125 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #f9f9f9;
 }
+
+/* Middle Section */
+
+.fashion-section{
+  padding: 0 118px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 97px;
+}
+
+.fashion-background a{
+  padding: 10px 81px;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 40px;
+  background-color: #262626;
+}
+
+.fashion-background a:hover{
+  transform: scale(1.2);
+  background-color: white;
+  color: #262626;
+}
+
+.fashion-background {
+  padding: 23px 923px 299px 47px;
+  background: url(assets/fashion-BGK2.jpg);
+  margin-bottom: 23px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.fashion-1{
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  position: relative;
+  margin-bottom: 29px;
+  padding-left: 64px;  
+}
+
+.mallory{
+  display: flex;
+  align-items: center;
+  gap: 133px;
+}
+
+.coming-in-hot{
+  position: absolute;
+  right: 90px;
+}
+
+.coming-in-hot h1{
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 3.36px;
+  color: #F25E5E;
+}
+
+.mallory p{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0px;
+  color: #BCBCBC;
+}
+
+.fashion-2 {
+  padding: 0 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.fashion-2 h1{
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #262626;
+}
+
+.fashion-2 p{
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #262626;
+  max-width: 790px;
+}
+
+.fashion-read-more{
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-left: 64px;
+  margin-top: 30px;
+}
+
+.fashion-read-more img{
+  margin-bottom: 38px;
+}
+
+.fashion-read-more p{
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2.88px;
+  color: #4CE0D7;
+  margin-bottom: 38px;
+}
+
+.fashion-read-more p:hover{
+  transform: scale(1.2);
+  color: #f9f9f9;
+  background-color: #4ce0d7;
+}
