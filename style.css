@@ -17,23 +17,139 @@ body {
   background-color: #f9f9f9;
 }
 
+/* =================== FASHION SECTION =================== */
+.fashion-section {
+  padding: 0 118px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 97px;
+}
 
-<<<<<<< Trending
-/*Trending section */
+.fashion-background a {
+  padding: 10px 81px;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 40px;
+  background-color: #262626;
+}
 
+.fashion-background a:hover {
+  transform: scale(1.2);
+  background-color: white;
+  color: #262626;
+}
+
+.fashion-background {
+  padding: 23px 923px 299px 47px;
+  background: url(assets/fashion-BGK2.jpg);
+  margin-bottom: 23px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.fashion-1 {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  position: relative;
+  margin-bottom: 29px;
+  padding-left: 64px;
+}
+
+.mallory {
+  display: flex;
+  align-items: center;
+  gap: 133px;
+}
+
+.coming-in-hot {
+  position: absolute;
+  right: 90px;
+}
+
+.coming-in-hot h1 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 3.36px;
+  color: #F25E5E;
+}
+
+.mallory p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0px;
+  color: #BCBCBC;
+}
+
+.fashion-2 {
+  padding: 0 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.fashion-2 h1 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #262626;
+}
+
+.fashion-2 p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #262626;
+  max-width: 790px;
+}
+
+.fashion-read-more {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-left: 64px;
+  margin-top: 30px;
+}
+
+.fashion-read-more img {
+  margin-bottom: 38px;
+}
+
+.fashion-read-more p {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2.88px;
+  color: #4CE0D7;
+  margin-bottom: 38px;
+}
+
+.fashion-read-more p:hover {
+  transform: scale(1.2);
+  color: #f9f9f9;
+  background-color: #4ce0d7;
+}
+
+/* =================== TRENDING SECTION =================== */
 .Trending-section {
   padding: 0 118px;
   margin-bottom: 88px;
 }
 
-/*Trending section h1*/
 .Trending-section h1 {
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 55px;
 }
 
-/*trending-cards*/
 .Trending-cards {
   display: flex;
   flex-direction: row;
@@ -51,18 +167,17 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 88px;
 }
 
-/*Trending-backgound*/
 .Trending-background {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center;
   border-radius: 20px;
   padding: 20px 369px 219px 34px;
   position: relative;
 }
-
 
 .Trending-background h2 {
   padding: 9px 50px;
@@ -74,17 +189,12 @@ body {
   display: inline-block;
 }
 
-/*background hover*/
-
 .Trending-background h2:hover {
-  background-color: #262626;
-  color:#FFFFFF;
-  background-color:#4ce0d7 ;
+  background-color: #4ce0d7;
+  color: #FFFFFF;
   cursor: pointer;
   transition: 0.3s ease;
 }
-
-/*Trending profile*/
 
 .Trending-profile {
   display: flex;
@@ -136,8 +246,6 @@ body {
   width: 360px;
 }
 
-/*read more*/
-
 .Trending-readmore {
   display: flex;
   flex-direction: row;
@@ -154,22 +262,17 @@ body {
 }
 
 .Trending-readmore:hover p {
-  color:#4CE0D7 ;
+  color: #4CE0D7;
   transition: 0.3s ease;
 }
+
 .Trending-readmore:hover img {
   transform: translateX(4px);
   transition: 0.3s ease;
   cursor: pointer;
-}  
-
-/*margin*/
-
-.Trending-card {
-  margin-bottom: 88px;
 }
-=======
-/* Topics section */
+
+/* =================== TOPICS SECTION =================== */
 .topics {
   display: flex;
   flex-direction: column;
@@ -191,7 +294,6 @@ body {
   color: #262626;
 }
 
-/* Topics card's main container */
 .topics-cards {
   display: flex;
   flex-direction: row;
@@ -229,145 +331,8 @@ body {
   color: white;
 }
 
-/* line */
 hr {
   margin: 0 auto;
   margin-bottom: 52px;
   width: 1267px;
 }
-
-.topics-img {
-  width: 103px;
-  height: 103px;
-}
-
-/* <!-- .logo img-> */
-.logo img{
-  width: 234px;
-  height: 49px;
-}
-
-/* <!-- .logo img transition-> */
-.logo img {
-  transition: transform 0.3s ease;
-}
-
-/* <!-- .logo img hover-> */
-.logo img:hover {
-  transform: scale(1.1); 
-}
-
-/* <!-- .nav img -> */
-.nav img{
-  width: 47px;
-  height: 47px;
-}
-
-/* <!-- .header-> */
-.header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 47px;
-}
-
-/* <!-- .nav-> */
-.nav{
-  display: flex;
-  gap: 35px;
-  align-items: center;
-}
-
-/* <!-- .nav a-> */
-.nav a{
-  font-size: 14px;
-  font-weight: bold;
-  color: #262626;
-}
-
-/* <!-- .nav a-> */
- .nav a {
-  color: #262626; 
-  text-decoration: none;
-  padding: 8px 16px;
-  transition: 0.3s ease, color 0.3s ease;
-  border-radius: 40px;
-  background-color: transparent;
-}
-
-/* <!-- .nav a-> */
-.nav a:hover {
-  background-color: #4CE0D7; 
-  color: #262626;
-}
-
-/* <!-- .nav a hover-> */
-.searh-icon {
-  width: 47px;
-  height: 47px;  
-}
-
-/* <!-- .searh-icon-> */
-.main{
-  display: flex;
-  flex-direction: column;
-  padding-top: 218px;
-  padding-bottom: 141px;
-  padding-left: 57px;
-  gap: 22px;
-}
-
-/* <!-- .background-section -> */
-.background-section {
-  background-image:url(./assets/Bkg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 560px;
-  border-radius: 20px;
-}
-
-/* <!-- background-section h3-> */
-.background-section{
-  background-color: #8BA9F4;
-  padding-top: 218px;
-  padding-left: 57px;
-  padding-bottom: 241px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-/* <!-- background-section h3-> */
-.background-section h3{
-  font-size: 12px;
-  font-weight: 700px;
-  color:white;
-  letter-spacing: 4px;
-}
-
-/* <!-- .background-section p-> */
-.background-section p{
-  font-size: 20px;
-  font-weight: 400px;
-  color:white;
-  max-width: 460px;
-  margin-bottom: 73px;
-}
-
-/* <!-- .background-section h1-> */
-.background-section h1{
-  font-size: 46px;
-  font-weight: lighter;
-  color:white;
-}
-
-/* <!-- .background-section span-> */
-.background-section span{
-  background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text; 
-  color: transparent;
-  font-weight: 700;
-}
->>>>>>> main
