@@ -1,28 +1,22 @@
-
-  
-  
-
 body {
   margin: 0;
   padding: 0;
 
-  font-family: 'Poppins', sans-serif;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-color: #ffffff
-  ;
-
-  margin: 0;
-  padding: 0;
-  
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   background-color: #ffffff;
 
-  }
+  margin: 0;
+  padding: 0;
+
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
 
 footer {
   background-color: #ffffff;
@@ -32,22 +26,21 @@ footer {
     padding: 40px 60px;
 
     @media (max-width: 768px) {
-  .footer-container {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-  }
+      .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+      }
 
-  .footer-right {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+      .footer-right {
+        flex-direction: column;
+        align-items: flex-start;
+      }
 
-  .social-icons {
-    justify-content: flex-start;
-  }
-}
-
+      .social-icons {
+        justify-content: flex-start;
+      }
+    }
   }
 }
 .footer-container {
@@ -62,21 +55,17 @@ footer {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
- border-bottom: 1px #BCBCBC solid;
- border-bottom-width: 1267px;
+  border-bottom: 1px #bcbcbc solid;
+  border-bottom-width: 1267px;
   border-bottom-style: center;
   border-bottom: top 44145px;
-  border-bottom:left 86.5px;
+  border-bottom: left 86.5px;
 
   padding: 20px 30px;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
   padding: 20px 30px;
-  
 }
- 
-  
-
 
 .footer-logo {
   max-height: 49px;
@@ -84,7 +73,8 @@ footer {
   max-width: 226px;
   top: 4289px;
   left: 84px;
-  margin-right: 20px; }
+  margin-right: 20px;
+}
 
 .footer-right {
   display: flex;
@@ -123,7 +113,6 @@ footer {
 .icon-instagram:hover img {
   filter: brightness(1.2);
   transform: scale(1.1);
-
 }
 
 .icon-youtube:hover img {
@@ -134,7 +123,6 @@ footer {
 .icon-linkedin:hover img {
   filter: brightness(1.2);
   transform: scale(1.1);
-
 }
 
 .footer-bottom {
@@ -146,11 +134,9 @@ footer {
   font-weight: 700;
 }
 
-
-  
-  @media (max-width: 1440px) {
-    .footer-bottom {
-      width: 100%;
-      padding: 0 20px;
-    }
+@media (max-width: 1440px) {
+  .footer-bottom {
+    width: 100%;
+    padding: 0 20px;
   }
+}
