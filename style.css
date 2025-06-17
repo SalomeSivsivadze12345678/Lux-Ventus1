@@ -7,8 +7,8 @@
 
 .container {
   max-width: 1440px;
-  margin: 0 auto;
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
@@ -127,6 +127,7 @@ body {
   flex-direction: column;
   gap: 48px;
   margin-bottom: 87px;
+  margin: 0 auto;
 }
 
 .topics-h1 {
@@ -147,23 +148,19 @@ body {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  align-items: center;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05);
 }
 
 .topic-card {
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
   background-color: #ffffff;
   width: max-content;
-  width: 204px;
-  height: 291px;
-  justify-content: center;
   padding: 51px 30px 30px 30px;
   border-radius: 20px;
   transition: transform 0.3s ease;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05);
 }
 
 .topic-card:hover {
@@ -202,6 +199,7 @@ hr {
 /* Middle Section */
 
 .fashion-section {
+  /* padding: 0 118px; */
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.05);
   margin-bottom: 97px;
 }
@@ -227,8 +225,6 @@ hr {
   margin-bottom: 23px;
   border-radius: 16px;
   overflow: hidden;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .fashion-1 {
@@ -237,7 +233,6 @@ hr {
   gap: 21px;
   position: relative;
   margin-bottom: 29px;
-  padding-left: 64px;
 }
 
 .mallory {
@@ -261,7 +256,7 @@ hr {
 }
 
 .mallory p {
-  font-family: Poppins;
+  font-family: "Poppins";
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
@@ -320,4 +315,156 @@ hr {
   transform: scale(1.2);
   color: #f9f9f9;
   background-color: #4ce0d7;
+}
+
+/*Trending section */
+.Trending-section {
+  margin-bottom: 88px;
+}
+/*Trending section h1*/
+.Trending-section h1 {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 55px;
+}
+/*trending-cards*/
+.Trending-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 60px;
+  /* flex-wrap: nowrap; */
+}
+.Trending-card {
+  width: max-content;
+  box-shadow: 0px 6px 6px 0px #0000000d;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 579px;
+  width: 100%;
+}
+
+/*Trending-backgound*/
+.Trending-background {
+  background-image: url(assets/nato1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  padding: 20px 369px 219px 34px;
+  position: relative;
+  margin-bottom: 23px;
+}
+
+.Trending-background2 {
+  background-image: url(assets/nato2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  padding: 20px 369px 219px 34px;
+  position: relative;
+  margin-bottom: 23px;
+}
+
+.Trending-background h2 {
+  padding: 9px 50px;
+  background-color: #262626;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 12px;
+  border-radius: 40px;
+  display: inline-block;
+}
+
+.Trending-background2 h2 {
+  padding: 9px 52px;
+  background-color: #262626;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 12px;
+  border-radius: 40px;
+  display: inline-block;
+}
+
+/*background hover*/
+.Trending-background h2:hover {
+  background-color: #262626;
+  color: #ffffff;
+  background-color: #4ce0d7;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+/*Trending profile*/
+.Trending-profile {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  align-items: center;
+  margin-left: 26px;
+}
+.Trending-profile img {
+  width: 65px;
+  height: 51px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.Trending-profile div {
+  display: flex;
+  flex-direction: row;
+  gap: 83px;
+}
+.Trending-profile p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #bcbcbc;
+}
+.malorie {
+  width: 169px;
+}
+.Trending-text {
+  max-width: 464px;
+  margin-left: 34px;
+}
+.Trending-text h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 28px;
+  margin-bottom: 25px;
+  width: 350px;
+}
+.Trending-text p {
+  font-size: 16px;
+  font-weight: 400;
+  width: 360px;
+}
+/*read more*/
+.Trending-readmore {
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+  align-items: center;
+  margin-left: 22px;
+  margin-bottom: 42px;
+}
+.Trending-readmore p {
+  color: #4ce0d7;
+  font-size: 12px;
+  font-weight: 700;
+}
+.Trending-readmore:hover p {
+  color: #4ce0d7;
+  transition: 0.3s ease;
+}
+.Trending-readmore:hover img {
+  transform: translateX(4px);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+/*margin*/
+.Trending-card {
+  margin-bottom: 88px;
 }
