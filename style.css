@@ -227,6 +227,8 @@ hr {
   margin-bottom: 23px;
   border-radius: 16px;
   overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .fashion-1 {
