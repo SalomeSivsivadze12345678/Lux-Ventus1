@@ -8,6 +8,8 @@
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  padding-left: 84px;
+  padding-right: 84px;
 }
 
 body {
@@ -325,7 +327,7 @@ hr {
 .Trending-section {
   margin-bottom: 88px;
 }
-/*Trending section h1*/
+
 .Trending-section h1 {
   font-weight: 700;
   font-size: 32px;
@@ -394,7 +396,7 @@ hr {
 }
 
 /*background hover*/
-.Trending-background h2:hover {
+.Trending-card h2:hover {
   background-color: #262626;
   color: #ffffff;
   background-color: #4ce0d7;
