@@ -394,7 +394,7 @@ hr {
 }
 
 /*background hover*/
-.Trending-background h2:hover {
+.Trending-card h2:hover {
   background-color: #262626;
   color: #ffffff;
   background-color: #4ce0d7;
